@@ -4,18 +4,23 @@ import Image from 'next/image'
 import roa from '../../../../public/img/davidRoa.svg'
 export default function Navbar() {
   return (
-    <>
+    <nav className='nav_glabal_container'>
       <h1>
         <Link href='/'>
           <Image
           src={roa}
-          alt="David Roa logo"
+          alt="David Roa logo"            
+          sizes='20vw'            
+          style={{
+           width: '100%',
+           height: 'auto',
+          }}  
         />
         </Link>
            
         </h1>
        
-        <nav>
+        
           <ul>
           
             <Link href='./uxui' className='nav_items'>
@@ -40,6 +45,6 @@ export default function Navbar() {
           </ul>
 
         </nav>
-    </>
+    
   )
 }
