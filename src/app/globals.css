@@ -4,14 +4,15 @@
   box-sizing: border-box;
 
 }
-a{
+
+a {
   text-decoration: none;
 }
 
 .global_container {
-  max-width: 1220px;  
+  max-width: 1220px;
   display: flex;
- 
+
 }
 
 
@@ -26,19 +27,26 @@ ul {
   flex-direction: column;
   list-style: none;
 }
-li{
+
+a {
   text-decoration: none;
-  color: black;
+  color: #696969;
   padding: 0.5rem;
   font-size: 1em;
   font-weight: 400;
   cursor: pointer;
+  transition: transform 1s;
 }
 
-li:hover {
-  color: white;
-  background-color: #696969;
+a:hover {
+  color: black;
+  background-color: #f7f7f7;
   border-radius: 0.5rem;
+}
+
+a li:hover {
+  font-weight: 600;
+  transform: translateX(10px);
 }
 
 
@@ -49,16 +57,42 @@ section {
   grid-gap: 1.5rem;
 }
 
-nav  {
+nav {
   padding: 2rem;
   width: 20vw;
   height: 100vh;
-  border-right: 2px solid #bbbbbb;
+
+}
+
+.nav_social_icons {
+  display: flex;
+}
+
+nav p {
+  margin-top: 2rem;
+  color: #696969;
+}
+
+.home_container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  gap: 2rem;
+}
+
+.circle img {
+  /* background-color: red; */
+  border-radius: 50%;
+  filter: grayscale(1)
+}
+
+.home_text_container {
+  font-weight: 200;
 }
 
 .card_container {
-  width: 18.875rem;
-  height: 12.813rem;
+  width: 18.875em;
+  height: 12.813em;
   background-color: #d9d9d9;
   cursor: pointer;
 }
@@ -77,20 +111,35 @@ nav  {
   width: 80vw;
   height: 100vh;
   background: rgba(0, 0, 0, 0.322);
-  
+
 }
 
 .overlay-content {
+  padding: 2em;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
   background: #fff;
-  width: 50%;
-  height: 50%;
-  text-align: center;
+  width: 100vh;
+  height: 100%;
+  text-align: left;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.overlay-content h2 {
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.overlay-content p {
+  font-weight: 200;
+  margin-top: 1.5rem;
+  max-width: 90vh;
+  text-align: left;
 }
 
 button {
+  text-align: right;
   background-color: transparent;
   color: black;
   padding: 10px 20px;
@@ -98,13 +147,46 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
-@media (max-width:1258px) {
 
-  section {  
-      grid-template-columns: repeat(2, 1fr);      
-    }
+.overlay_img_container {
+  min-height: 300px;
+  background-color: #d9d9d9;
+
 
 }
+
+.overlay_img_global {
+  display: flex;
+  gap: 0.5rem;
+
+}
+
+.overlay_img_container_1 {
+  width: 380px;
+  min-height: 300px;
+  background-color: #d9d9d9;
+}
+
+.overlay_img_container_2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.overlay_img_container_2 div {
+  width: 300px;
+  min-height: 200px;
+  background-color: #d9d9d9;
+}
+
+@media (max-width:1258px) {
+
+  section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
 @media (max-width:930px) {
   section {
     grid-template-columns: repeat(1, 1fr);
