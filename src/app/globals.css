@@ -76,7 +76,9 @@ nav p {
   color: #696969;
 }
 
-
+.nav_icons_movile {
+  display: none;
+}
 
 
 
