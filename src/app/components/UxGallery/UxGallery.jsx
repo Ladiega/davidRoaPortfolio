@@ -15,7 +15,7 @@ export default function UxGallery() {
   }
 
   return (
-    <section>
+    <section className="uxgallery_container">
 
       <div className='card_container' onClick={showOverlay}>
         <Overlay isOpen={overlayOpen} onClose={closeOverlay} />

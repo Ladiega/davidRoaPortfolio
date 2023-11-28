@@ -17,7 +17,7 @@ export default function Illustration() {
   };
 
   return (
-    <section>
+    <section className="illustration_gallery_contanier">
 
           <div className='card_container' onClick={showOverlay}>
         <OverlayIllustration isOpen={overlayOpen} onClose={closeOverlay} />
