@@ -1,7 +1,7 @@
 'use client'
 import React, { useState } from "react"
-
-
+import Image from "next/image";
+import imgframe from "../../../public/img/imgframe.png"
 import OverlayIllustration from "../components/overlayillustration/overlayillustration"
 
 export default function Illustration() {
@@ -19,24 +19,74 @@ export default function Illustration() {
   return (
     <section className="illustration_gallery_contanier">
 
-          <div className='card_container' onClick={showOverlay}>
+      <div className='card_container' onClick={showOverlay}>
+        <div className='card_container' onClick={showOverlay}>
+          <Image
+            className="imgframe"
+            src={imgframe}
+            alt="imgframe"
+          />
+          <OverlayIllustration isOpen={overlayOpen} onClose={closeOverlay} />
+        </div>
         <OverlayIllustration isOpen={overlayOpen} onClose={closeOverlay} />
-          </div>
-          <div className='card_container' onClick={showOverlay}>
+      </div>
+      <div className='card_container' onClick={showOverlay}>
+        <div className='card_container' onClick={showOverlay}>
+          <Image
+            className="imgframe"
+            src={imgframe}
+            alt="imgframe"
+          />
+          <OverlayIllustration isOpen={overlayOpen} onClose={closeOverlay} />
+        </div>
         <OverlayIllustration isOpen={overlayOpen} onClose={closeOverlay} />
-          </div>
-           <div className='card_container' onClick={showOverlay}>
+      </div>
+      <div className='card_container' onClick={showOverlay}>
+        <div className='card_container' onClick={showOverlay}>
+          <Image
+            className="imgframe"
+            src={imgframe}
+            alt="imgframe"
+          />
+          <OverlayIllustration isOpen={overlayOpen} onClose={closeOverlay} />
+        </div>
         <OverlayIllustration isOpen={overlayOpen} onClose={closeOverlay} />
-         </div>
-           <div className='card_container' onClick={showOverlay}>
+      </div>
+      <div className='card_container' onClick={showOverlay}>
+        <div className='card_container' onClick={showOverlay}>
+          <Image
+            className="imgframe"
+            src={imgframe}
+            alt="imgframe"
+          />
+          <OverlayIllustration isOpen={overlayOpen} onClose={closeOverlay} />
+        </div>
         <OverlayIllustration isOpen={overlayOpen} onClose={closeOverlay} />
-         </div>
-           <div className='card_container' onClick={showOverlay}>
+      </div>
+      <div className='card_container' onClick={showOverlay}>
+        <div className='card_container' onClick={showOverlay}>
+          <Image
+            className="imgframe"
+            src={imgframe}
+            alt="imgframe"
+          />
+          <OverlayIllustration isOpen={overlayOpen} onClose={closeOverlay} />
+        </div>
         <OverlayIllustration isOpen={overlayOpen} onClose={closeOverlay} />
-           </div>
-          <div className='card_container' onClick={showOverlay}>
+      </div>
+      <div className='card_container' onClick={showOverlay}>
+        <div className='card_container' onClick={showOverlay}>
+          <Image
+            className="imgframe"
+            src={imgframe}
+            alt="imgframe"
+          />
+          <OverlayIllustration isOpen={overlayOpen} onClose={closeOverlay} />
+        </div>
         <OverlayIllustration isOpen={overlayOpen} onClose={closeOverlay} />
-         </div>
+      </div>
+          
+        
          </section>
   )
 }
