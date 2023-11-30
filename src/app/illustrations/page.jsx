@@ -27,8 +27,7 @@ export default function Illustration() {
             alt="imgframe"
           />
           <OverlayIllustration isOpen={overlayOpen} onClose={closeOverlay} />
-        </div>
-        <OverlayIllustration isOpen={overlayOpen} onClose={closeOverlay} />
+        </div>        
       </div>
       <div className='card_container' onClick={showOverlay}>
         <div className='card_container' onClick={showOverlay}>
@@ -39,7 +38,6 @@ export default function Illustration() {
           />
           <OverlayIllustration isOpen={overlayOpen} onClose={closeOverlay} />
         </div>
-        <OverlayIllustration isOpen={overlayOpen} onClose={closeOverlay} />
       </div>
       <div className='card_container' onClick={showOverlay}>
         <div className='card_container' onClick={showOverlay}>
@@ -50,7 +48,6 @@ export default function Illustration() {
           />
           <OverlayIllustration isOpen={overlayOpen} onClose={closeOverlay} />
         </div>
-        <OverlayIllustration isOpen={overlayOpen} onClose={closeOverlay} />
       </div>
       <div className='card_container' onClick={showOverlay}>
         <div className='card_container' onClick={showOverlay}>
@@ -61,7 +58,6 @@ export default function Illustration() {
           />
           <OverlayIllustration isOpen={overlayOpen} onClose={closeOverlay} />
         </div>
-        <OverlayIllustration isOpen={overlayOpen} onClose={closeOverlay} />
       </div>
       <div className='card_container' onClick={showOverlay}>
         <div className='card_container' onClick={showOverlay}>
@@ -72,7 +68,6 @@ export default function Illustration() {
           />
           <OverlayIllustration isOpen={overlayOpen} onClose={closeOverlay} />
         </div>
-        <OverlayIllustration isOpen={overlayOpen} onClose={closeOverlay} />
       </div>
       <div className='card_container' onClick={showOverlay}>
         <div className='card_container' onClick={showOverlay}>
@@ -83,8 +78,8 @@ export default function Illustration() {
           />
           <OverlayIllustration isOpen={overlayOpen} onClose={closeOverlay} />
         </div>
-        <OverlayIllustration isOpen={overlayOpen} onClose={closeOverlay} />
       </div>
+      
           
         
          </section>

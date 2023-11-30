@@ -1,3 +1,4 @@
+
 import Link from 'next/link'
 import { Montserrat } from 'next/font/google'
 import Image from 'next/image'
@@ -11,6 +12,9 @@ import Ham from '../Hambutton/Hambutton'
 const montserrat = Montserrat({ subsets: ['latin'] })
 
 export default function Navbar() {
+
+  
+
   return (
     <nav className='nav_glabal_container'>
       <div className='nav_header_container'>
@@ -25,15 +29,15 @@ export default function Navbar() {
             height: 'auto',
           }}
         />
-<div className='nav_icons_movile'>
-        <Image
-          className='roa2'
-          src={roa2}
-          alt='logo2'
-        />
+        <div className='nav_icons_movile'>
+          <Image
+            className='roa2'
+            src={roa2}
+            alt='logo2'
+          />
 
-        <Ham />
-</div>
+          <Ham />
+        </div>
 
       </div>
 

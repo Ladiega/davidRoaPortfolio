@@ -16,10 +16,10 @@ export default function HamOpen({ isOpen , onClose }) {
         <nav className='nav_glabal_container2' onClick={onClose}>
           <div onClick={(e) => e.stopPropagation()}>             
 
-          <ul className={montserrat.className}>
+          <ul className={montserrat.className} >
             <Link href='./bio' className='nav_items'>
               <li> Bio</li>
-            </Link>
+              </Link>              
 
             <Link href='./uxui' className='nav_items'>
               <li> UX/UI Desing</li>

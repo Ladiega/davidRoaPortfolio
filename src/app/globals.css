@@ -5,11 +5,16 @@
 
 }
 
+html {
+  background-color: white;
+}
+
 a {
   text-decoration: none;
 }
 
 .global_container {
+
   max-width: 1220px;
   display: flex;
 
@@ -59,6 +64,7 @@ section {
 }
 
 nav {
+
   display: flex;
   flex-direction: column;
   padding: 2rem;
@@ -67,8 +73,10 @@ nav {
 
 }
 
+
 .nav_social_icons {
   display: flex;
+
 }
 
 nav p {
@@ -79,8 +87,6 @@ nav p {
 .nav_icons_movile {
   display: none;
 }
-
-
 
 
 
@@ -149,7 +155,7 @@ li {
 }
 
 .circle img {
-  /* background-color: red; */
+
   border-radius: 50%;
   filter: grayscale(1)
 }
@@ -284,6 +290,7 @@ button {
   }
 
   nav {
+    position: sticky;
     flex-direction: row;
     position: absolute;
 
@@ -314,8 +321,13 @@ button {
   }
 
   .nav_icons_movile {
+    background-color: white;
+    margin: -2rem 0 -2rem -2rem;
+    padding: 2rem;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
+    /* box-shadow: 2px 2px 3px #69696935; */
   }
 
   .roa1 {
@@ -323,7 +335,9 @@ button {
   }
 
   .home_container {
-    margin-top: 5rem;
+    /* overflow-y: scroll;
+    scroll-behavior: smooth; */
+    margin-top: 6rem;
     flex-direction: column;
   }
 
@@ -337,5 +351,28 @@ button {
 
   .illustration_gallery_contanier {
     margin-top: 5rem;
+  }
+
+  .overlay {
+
+    top: 5.5rem;
+    left: 3rem;
+    width: 100vw;
+    height: 100vh;
+    background: none;
+    margin-left: -2rem;
+  }
+
+  .overlay-content {
+    /* padding: 2em; */
+    display: flex;
+    flex-direction: column;
+    /* background: red; */
+    margin-left: -2rem;
+    width: 90%;
+    height: 100vh;
+    text-align: left;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
   }
 }

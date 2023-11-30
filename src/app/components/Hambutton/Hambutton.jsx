@@ -32,13 +32,15 @@ const Ham = () => {
         <nav className='nav_glabal_container'>          
           <ul className={montserrat.className}>
             <Link href='./bio' className='nav_items'>
-              <li> Bio</li>
+              <li onClick={toggleMenu}> Bio</li>
             </Link>
+            
+            
             <Link href='./uxui' className='nav_items'>
-              <li> UX/UI Desing</li>
+              <li onClick={toggleMenu}> UX/UI Desing</li>
             </Link>
             <Link href='./illustrations' className='nav_items'>
-              <li> Illustration</li>
+              <li onClick={toggleMenu}> Illustration</li>
             </Link>
             <div className='nav_social_icons'>
               <li>
