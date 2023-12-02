@@ -21,13 +21,10 @@ export default function Navbar() {
 
         <Image
           className='roa1'
+          width={190}
           src={roa}
           alt="David Roa logo"
-          sizes='20vw'
-          style={{
-            width: '100%',
-            height: 'auto',
-          }}
+         
         />
         <div className='nav_icons_movile'>
           <Image

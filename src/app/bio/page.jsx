@@ -13,16 +13,13 @@ export default function Bio() {
         <Image
           src={profile}
           alt="profile test"
-          sizes='300em'
-          style={{
-            width: '100%',
-            height: 'auto',
-
-          }}
+          width={205}
         />
       </div>
       <div className="home_text_container">
-        <p className={roboto.className}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, sapiente suscipit? Explicabo, doloremque sequi. Debitis velit voluptatum vero tenetur accusamus nihil nisi exercitationem pariatur nemo qui eius, reiciendis doloremque! Eum eaque iure porro quia nemo exercitationem reiciendis nostrum culpa eius a pariatur non deserunt est, quam adipisci, maxime quas corrupti nulla id? Corporis voluptate tenetur quam perspiciatis illo cupiditate voluptas. .</p><br /><br />
+        <p className={roboto.className}>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+        </p><br /><br />
         <p className={roboto.className}>Contact: davidroaf@gmail.com <br /> Current Residence: Alexandria, VA</p>
       </div>
     </main>
