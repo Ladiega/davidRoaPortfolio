@@ -20,7 +20,9 @@ a {
 
 }
 
-
+aside {
+  padding-right: 2rem;
+}
 
 h1 {
   margin-bottom: 1rem;
@@ -349,7 +351,12 @@ button {
     flex-direction: column;
   }
 
+  aside {
+    padding-right: -2rem;
+  }
+
   nav {
+
     position: sticky;
     flex-direction: row;
     position: absolute;
@@ -369,14 +376,18 @@ button {
     z-index: 3;
   }
 
+  .nav_header_container img {
+    width: 20px;
+  }
+
   /* nav container */
   .__className_cce811 {
-    padding: 2rem;
-    width: 100vh;
+    padding: 19px 0rem;
+    width: 350px;
     height: 100vh;
     position: absolute;
     margin-top: -2rem;
-    margin-left: -35vh;
+    margin-left: -39vh;
     background-color: white;
   }
 
@@ -390,6 +401,11 @@ button {
     /* box-shadow: 2px 2px 3px #69696935; */
   }
 
+  .nav_icons_movile .roa2 {
+    width: 100px;
+  }
+
+
   .roa1 {
     display: none;
   }
@@ -402,11 +418,24 @@ button {
   }
 
   .circle img {
-    max-width: 60%;
+    max-width: 100%;
+  }
+
+  .home_text_container {
+    width: 230px;
   }
 
   .uxgallery_container {
     margin-top: 4rem;
+    margin-left: 2rem;
+  }
+
+  .card_container {
+    margin-top: 3rem;
+  }
+
+  .card_container img {
+    width: 230px;
   }
 
   .illustration_gallery_contanier {
@@ -427,12 +456,37 @@ button {
     /* padding: 2em; */
     display: flex;
     flex-direction: column;
-    /* background: red; */
-    margin-left: -2rem;
-    width: 90%;
+    background: red;
+    margin-left: -1rem;
+    margin-top: -3rem;
+    padding-left: 2rem;
+    width: 100vh;
     height: 100vh;
     text-align: left;
     overflow-y: scroll;
     scroll-behavior: smooth;
+  }
+
+  .overlay-content p {
+    width: 220px;
+  }
+
+  .overlay_img_global {
+    flex-direction: column;
+  }
+
+
+  .overlay_img_container_1 img {
+    width: 230px;
+    height: 150px;
+  }
+
+  .overlay_img_container_2 {
+    flex-direction: row;
+  }
+
+  .overlay_img_container_2 img {
+    width: 111px;
+    height: 109px;
   }
 }

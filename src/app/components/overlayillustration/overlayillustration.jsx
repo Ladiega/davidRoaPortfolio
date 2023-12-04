@@ -26,20 +26,20 @@ export default function OverlayIllustration({ isOpen, onClose }) {
             </button>
             <h2>Project Name</h2>
             <div className="overlay_img_global">
-              <div className='overlay_img_container_1'>image1
+              <div className='overlay_img_container_1'>
                 <Image
                   src={imgill1}
                   alt="image illustration 1"
                 />
               </div>
             <div className="overlay_img_container_2">
-                <div>img2
+                <div>
                   <Image
                     src={imgill2}
                     alt="image illustration 2"
                   />
                 </div>
-                <div>img3
+                <div>
                   <Image
                     src={imgill3}
                     alt="image illustration 3"
