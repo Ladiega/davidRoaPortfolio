@@ -387,7 +387,7 @@ button {
     height: 100vh;
     position: absolute;
     margin-top: -2rem;
-    margin-left: -39vh;
+    margin-left: -132vh;
     background-color: white;
   }
 
@@ -422,7 +422,7 @@ button {
   }
 
   .home_text_container {
-    width: 230px;
+    width: 330px;
   }
 
   .uxgallery_container {
@@ -435,7 +435,7 @@ button {
   }
 
   .card_container img {
-    width: 230px;
+    width: 335px;
   }
 
   .illustration_gallery_contanier {
