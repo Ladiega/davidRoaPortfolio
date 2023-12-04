@@ -456,7 +456,7 @@ button {
     /* padding: 2em; */
     display: flex;
     flex-direction: column;
-    background: red;
+    /* background: red; */
     margin-left: -1rem;
     margin-top: -3rem;
     padding-left: 2rem;
