@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from "react"
-import Overlay from "../overlay/overlay"
+import Overlay from "../overlay/Overlay"
 import Image from "next/image";
 import imgframe from "../../../../public/img/imgframe.png"
 

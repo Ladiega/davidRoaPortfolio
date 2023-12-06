@@ -2,7 +2,7 @@
 import React, { useState } from "react"
 import Image from "next/image";
 import imgframe from "../../../public/img/imgframe.png"
-import OverlayIllustration from "../components/overlayillustration/overlayillustration"
+import OverlayIllustration from "../components/overlayillustration/Overlayillustration"
 
 export default function Illustration() {
 
